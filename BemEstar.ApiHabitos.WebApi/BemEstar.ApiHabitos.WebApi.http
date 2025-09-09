@@ -1,0 +1,6 @@
+@BemEstar.ApiHabitos.WebApi_HostAddress = http://localhost:5132
+
+GET {{BemEstar.ApiHabitos.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
