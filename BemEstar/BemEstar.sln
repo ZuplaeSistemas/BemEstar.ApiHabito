@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemEstar.ApiHabitos.Models", "..\BemEstar.ApiHabitos.Models\BemEstar.ApiHabitos.Models.csproj", "{F3595D70-8B93-43DD-97FF-9D9EDBEF25CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemEstar.ApiHabitos.Models", "BemEstar.ApiHabitos.Models\BemEstar.ApiHabitos.Models.csproj", "{F3595D70-8B93-43DD-97FF-9D9EDBEF25CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemEstar.ApiHabitos.Service", "..\BemEstar.ApiHabitos.Service\BemEstar.ApiHabitos.Service.csproj", "{28E6F77E-6E85-43C4-B9B0-4AB077550C18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemEstar.ApiHabitos.Service", "BemEstar.ApiHabitos.Service\BemEstar.ApiHabitos.Service.csproj", "{28E6F77E-6E85-43C4-B9B0-4AB077550C18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemEstar.ApiHabitos.WebApi", "..\BemEstar.ApiHabitos.WebApi\BemEstar.ApiHabitos.WebApi.csproj", "{64485F32-5288-4EFB-BFD5-5227C1946F3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemEstar.ApiHabitos.WebApi", "BemEstar.ApiHabitos.WebApi\BemEstar.ApiHabitos.WebApi.csproj", "{64485F32-5288-4EFB-BFD5-5227C1946F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
