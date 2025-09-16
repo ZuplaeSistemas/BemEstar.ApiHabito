@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# MacOS - Idea
+.DS_Store
+.idea/
+BemEstar/.idea
+BemEstar/.vs
