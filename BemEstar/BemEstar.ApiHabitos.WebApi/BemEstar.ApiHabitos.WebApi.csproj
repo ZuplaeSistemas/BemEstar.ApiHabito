@@ -11,4 +11,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BemEstar.ApiHabitos.Models\BemEstar.ApiHabitos.Models.csproj" />
+      <ProjectReference Include="..\BemEstar.ApiHabitos.Service\BemEstar.ApiHabitos.Service.csproj" />
+    </ItemGroup>
+
 </Project>
