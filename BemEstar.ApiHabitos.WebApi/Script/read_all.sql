@@ -1,4 +1,4 @@
 --CRUD 
---LISTAR POR ID
+--LISTAR TODOS (READ)
 
 select * from habito
