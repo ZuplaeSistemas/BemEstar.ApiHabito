@@ -2,35 +2,37 @@ using BemEstar.ApiHabitos.Models;
 
 namespace BemEstar.ApiHabitos.Service;
 
-public class  BaseService <T> :IService<T>  where T : BaseModel 
-{
-    public static List<T> list  = new List<T>();
-    public void Create(T model)
-    {
-        list.Add(model);
-    }
+    public class BaseService<T> : IService<T> where T : BaseModel
 
-    public void Delete(int id)
     {
-        T item = this.ReadById(id);
-        list.Remove(item);
-    }
+        public static List<T> list = new List<T>();
 
-    public List<T> Read()
-    {
-        return list;
-    }
+        public virtual void Create(T model)
+        {
+            list.Add(model);
+        }
 
-    public T ReadById(int id)
-    {
-        T item = list.FirstOrDefault(i => i.Id == id);
-        return item;
-    }
+        public virtual void Delete(int id)
+        {
+            T item = this.ReadById(id);
+            list.Remove(item);
+        }
 
-    public void Update(T model)
-    {
-        T olditem = this.ReadById(model.Id);
-        this.Delete(olditem.Id);
-        this.Create(model);
+        public virtual List<T> Read()
+        {
+            return list;
+        }
+
+        public virtual T ReadById(int id)
+        {
+            T item = list.FirstOrDefault(i => i.Id == id);
+            return item;
+        }
+
+        public virtual void Update(T model)
+        {
+            T olditem = this.ReadById(model.Id);
+            this.Delete(olditem.Id);
+            this.Create(model);
+        }
     }
-}
